@@ -1,8 +1,8 @@
-# 🏁 Autonomous Racecar Pro
+# Autonomous Racecar Pro
 
-Professional autonomous racing car system with clean, modular architecture.
+Autonomous racing car system.
 
-## 🚀 Quick Start
+## Quick Start
 
 1. **Install package**: `pip install -e .`
 2. **Hardware setup**: `python scripts/setup_hardware.py`
@@ -10,7 +10,7 @@ Professional autonomous racing car system with clean, modular architecture.
 4. **Train model**: `python scripts/train_model.py`
 5. **Autonomous drive**: `python scripts/autonomous_drive.py`
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Autonomous-Racecar-Pro/
@@ -21,11 +21,11 @@ Autonomous-Racecar-Pro/
 └── config/                     # Configuration files
 ```
 
-## 🎯 Features
+## Features
 
-- ✅ Modular hardware interfaces
-- ✅ Rapid data collection system  
-- ✅ Professional training pipeline
-- ✅ Safe autonomous driving
-- ✅ Comprehensive testing
-- ✅ Clean configuration management
+- Modular hardware interfaces
+- Rapid data collection system  
+- Training pipeline
+- Safe autonomous driving
+- Comprehensive testing
+- Config managment
