@@ -1,0 +1,23 @@
+# Hardware Configuration
+steering:
+  offset: 0.17          # Your calibrated offset
+  gain: -0.65           # Your calibrated gain
+  channel: 0
+  max_value: 1.0
+  min_value: -1.0
+
+throttle:
+  gain: 0.8
+  channel: 1
+  max_value: 1.0
+  min_value: -1.0
+
+i2c:
+  address: 0x40
+  bus: 7
+
+camera:
+  width: 640
+  height: 480
+  fps: 21
+  target_size: [224, 224]
